@@ -3,8 +3,8 @@ povezlo_povezlo = 0
 ne_povezlo_ne_povezlo = 0
 povezlo_povezlo_2 = 0
 ne_povezlo_ne_povezlo_2 = 0
-a = 1000000
-for j in range(a):
+kolichestvo = 1000000
+for j in range(kolichestvo):
     spisok = [1, 2, 3]
     winn = random.choice(spisok)
     vibor = random.choice(spisok)
@@ -19,9 +19,9 @@ for j in range(a):
         povezlo_povezlo += 1
     else:
         ne_povezlo_ne_povezlo += 1
-print(povezlo_povezlo / a * 100, "%", ' menyaem', sep='')
+print(povezlo_povezlo / kolichestvo * 100, "%", ' menyaem', sep='')
 spisok = [1, 2, 3]
-for j in range(a):
+for j in range(kolichestvo):
     spisok = [1, 2, 3]
     winn = random.choice(spisok)
     vibor = random.choice(spisok)
@@ -29,4 +29,4 @@ for j in range(a):
         povezlo_povezlo_2 += 1
     else:
         ne_povezlo_ne_povezlo_2 += 1
-print(povezlo_povezlo_2 / a * 100, "%", ' ne menyaem', sep='')
+print(povezlo_povezlo_2 / kolichestvo* 100, "%", ' ne menyaem', sep='')
